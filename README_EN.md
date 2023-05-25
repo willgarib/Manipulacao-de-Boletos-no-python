@@ -1,12 +1,12 @@
 # Working with PDF Bank Slips in python
 
 Modules created based on the ```pypdfium2``` library, maintained by Google, to open pdf's and provide some solutions, including:
-	- Get the file size;
-	- Render a pdf page as a *numpy* array (image);
-	- Extract text from pdf (with or without OCR);
-	- Extract the Value of the bank slip;
-	- Get a file path with the standard GUI (```tkinter´´´);
-	- Open a file in the default OS application.
+- Get the file size;
+- Render a pdf page as a *numpy* array (image);
+- Extract text from pdf (with or without OCR);
+- Extract the Value of the bank slip;
+- Get a file path with the standard GUI (```tkinter´´´);
+- Open a file in the default OS application.
 
 If your PDF is a bank slips, the *ticket_value* method tries to extract the value from it.
 
