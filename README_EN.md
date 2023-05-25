@@ -5,7 +5,7 @@ Modules created based on the ```pypdfium2``` library, maintained by Google, to o
 - Render a pdf page as a *numpy* array (image);
 - Extract text from pdf (with or without OCR);
 - Extract the Value of the bank slip;
-- Get a file path with the standard GUI (```tkinter´´´);
+- Get a file path with the standard GUI (```tkinter```);
 - Open a file in the default OS application.
 
 If your PDF is a bank slips, the *ticket_value* method tries to extract the value from it.
