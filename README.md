@@ -1,12 +1,12 @@
 # Manipular Boletos em PDF no python
 
 Módulos criados com base na biblioteca ```pypdfium2```, que é mantida pelo Google, para abrir pdf's e fornecer algumas soluções, entre elas:
-	- Obter o tamanho do arquivo;
-	- Renderizar uma página do pdf como um array do *numpy* (imagem);
-	- Extrair o texto do pdf (com ou sem OCR);
-	- Extrair o Valor do Boleto;
-	- Obter um caminho de arquivo com a interface gráfica padrao (```tkinter```);
-	- Abrir um arquivo na aplicação padrão do OS.
+- Obter o tamanho do arquivo;
+- Renderizar uma página do pdf como um array do *numpy* (imagem);
+- Extrair o texto do pdf (com ou sem OCR);
+- Extrair o Valor do Boleto;
+- Obter um caminho de arquivo com a interface gráfica padrao (```tkinter```);
+- Abrir um arquivo na aplicação padrão do OS.
 
 Se o seu PDF for um boleto, o método *ticket_value* tenta extrair o valor dele.
 
